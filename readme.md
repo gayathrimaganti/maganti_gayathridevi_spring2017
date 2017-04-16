@@ -100,4 +100,5 @@ i.e, by iterating over the archive of upto 120 pages.
 append it to a list to form a single text. 
 9. Removing all the unwanted characters and numbers from the text, filtering the headlines text to give data without stop words.
 10. Finding the 100 most common words and displaying them. 
+
 ![8](https://cloud.githubusercontent.com/assets/25045093/25073902/556a8b90-22be-11e7-8180-dec74bb79e96.JPG)
