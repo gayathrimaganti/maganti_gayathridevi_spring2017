@@ -1,8 +1,8 @@
 Data Analysis using Python: Final Project Spring 2017
 
-Selected Pattern: 
-
-Pattern 1(100 Points)
+Selected Pattern:
+ 
+Pattern 1(100 Points):
 
 Using a readily downloadable dataset, perform 5 analysis on the dataset and create a Readme.md file explaining your analysis. 
 
@@ -14,20 +14,34 @@ Link from which Dataset has been downloaded: http://montcoalert.org/gettingdata/
 
 Dataset path in folder(GitHub): final/data/911.csv
 
-
 Analysis 1: 
 1.	Read the data from .csv file into a dataframe using pandas.
 2.	Displaying the information about the dataframe to find the datatypes and various columns available.
-
+![1](https://cloud.githubusercontent.com/assets/25045093/25310649/6d2519d2-27b7-11e7-9a04-e03fe85a0c1e.JPG)
 3.	Finding the top 5 most occurring townships in the 911 emergency calls list.
+![2](https://cloud.githubusercontent.com/assets/25045093/25310650/7577164e-27b7-11e7-9efc-fda3ecb86b8a.JPG)
+
 4.	Finding the counts for the top 5 most occurring Zip Codes.
+![top 5 zips](https://cloud.githubusercontent.com/assets/25045093/25310652/8105610a-27b7-11e7-90f3-6fd0b66cf6c7.JPG)
+
 5.	Finding the number of unique titles, i.e. various types of emergency reasons
 6.	Counting the number of emergencies for each ‘type’ of emergency from December 2015 to present.
+![type of emergency](https://cloud.githubusercontent.com/assets/25045093/25310654/887aa4b8-27b7-11e7-9e33-92af777627e5.JPG)
+
 7.	Analyzing the number of townships that got emergency calls for each day.
+![number of townships per date](https://cloud.githubusercontent.com/assets/25045093/25310655/9b11aa4a-27b7-11e7-9b8c-597325f5e1b7.JPG)
+
 8.	Finding the number of townships that received emergency calls each day by date only for 'Medical Emergency'.
+![ems-date](https://cloud.githubusercontent.com/assets/25045093/25310656/a0b2b0f2-27b7-11e7-818f-d6f56dee7d1c.JPG)
+
 9.	Finding the number of townships that received emergency calls each day by date only for 'Fire’.
+![fire-date](https://cloud.githubusercontent.com/assets/25045093/25310658/a7076ea2-27b7-11e7-999e-5887418a3183.JPG)
+
 10.	Finding the number of townships that received emergency calls each day by date only for 'Traffic’.
+![traffic-date](https://cloud.githubusercontent.com/assets/25045093/25310659/aab6d326-27b7-11e7-87f9-acfef1f5065b.JPG)
+
 11.	Finally, from the analysis, the graphs show that the ‘Traffic’ type of emergency was the reason for calls to maximum townships in Montgomery County. Its value shows above 500 around the month of February 2016.
+
 
 
 Analysis 2:
@@ -35,8 +49,13 @@ Analysis 2:
 2.	Finding the various categories of emergency and analyzing the counts of emergencies during an hour, day of the week and month of the year for the year 2016.
 3.	Creating another data frame to store the records only with the year 2016 and displaying them.
 4.	Creating new columns for the new data frame with hour, day of the week and month of the year using lambda function.
+![year hour date](https://cloud.githubusercontent.com/assets/25045093/25310667/caa56828-27b7-11e7-8fce-8899e2fc31e2.JPG)
+
 5.	Finding the counts for emergencies for each ‘type’ of emergency in the year 2016.
+![ems-fire-traffic-2016](https://cloud.githubusercontent.com/assets/25045093/25310669/cfb1f282-27b7-11e7-9b5f-4dcf394f0a37.JPG)
+
 6.	The results show that Medical Emergencies(EMS) has the highest number of calls followed by Traffic and Fire.
+
 7.	Plotting the graphs for counts of emergency calls for EMS, Traffic and Fire for each Hour, day of the week and month of the year.
 8.	Analyzing the number of emergency calls by township in the year 2016 and sorting them by mean value ’e’.
 9.	The counts are then grouped by township that is, a bar graph for the mean value and townships has been plotted which shows that ‘Lower Merion’ has the highest mean of emergency calls and township ‘Horsham’ has the least.
@@ -75,6 +94,9 @@ Analysis 4 & 5:
 18.	Plotting the top 10 places for Traffic Category.
 19.	From this analysis, it has been found that Township Norristown has higher number of EMS, while low number of Fire and Traffic. Lower Merion has almost similar count for all categories.
 
+
+
+  
 
 
   
