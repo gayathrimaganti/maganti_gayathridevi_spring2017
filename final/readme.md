@@ -1,11 +1,19 @@
 Data Analysis using Python: Final Project Spring 2017
+
 Selected Pattern: 
+
 Pattern 1(100 Points)
+
 Using a readily downloadable dataset, perform 5 analysis on the dataset and create a Readme.md file explaining your analysis. 
+
 Project Topic: 911 Emergency calls
+
 Dataset: 911 Emergency calls of Montgomery County, Pennsylvania, USA beginning from December 2015 to present.
+
 Link from which Dataset has been downloaded: http://montcoalert.org/gettingdata/ (Data is updated daily at this URL)
+
 Dataset path in folder(GitHub): final/data/911.csv
+
 
 Analysis 1: 
 1.	Read the data from .csv file into a dataframe using pandas.
